@@ -1,0 +1,51 @@
+## default parameters
+seed: 0
+device: 'cpu'
+algo: 'rl' # fixed or rl
+
+## environment parameters
+# env_type == synthetic -> 1_3, 2_2, 3_3, 4_4
+# env_type == real      -> jinan, hangzhou, newyork, daejeon_daeduck
+env_type: 'synthetic' # synthetic or real
+env_name: '1_3'
+
+episode: 200
+steps_per_episode: 3600
+cctv_dist: 100 ### unit : meter, 'max'
+
+n_agent: 0
+model_save: True
+replay_save: True
+save_interval: 10
+
+## evaluate parameters
+eval: False
+eval_episode: 10
+eval_replay_save: True
+
+## model parameters
+in_dim: 12
+out_dim: 20
+phase_dim: 4
+min_phase_time: 5
+max_phase_time: 25
+duration_time_step: 5
+actor_lr: 0.0005
+critic_lr: 0.001
+k_epoch: 10
+actor_hid_dim_1: 64
+actor_hid_dim_2: 128
+critic_hid_dim: 128
+gamma: 0.8
+lmbda: 0.9
+eps_clip: 0.2
+batch_size: 32
+value_loss_coef: 1
+entropy_loss_coef: 0.01
+
+## if env_name == 'daejeon_daeduck'
+time_type: 'total' # when env_name is real-daejeon_daeduck, you can use type with am, am, not, pm
+yellow_phase: False
+
+## data folder location
+data_folder: 'data'

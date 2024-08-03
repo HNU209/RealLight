@@ -1,0 +1,106 @@
+[
+    {
+        "real_name": "큰마을네거리",
+        "env_name": "intersection_1_1",
+        "total_duration": 170,
+        "action": {
+            "0": 31,
+            "1": 42,
+            "2": 31,
+            "3": 32,
+            "4": 34
+        }
+    },
+    {
+        "real_name": "은하수네거리",
+        "env_name": "intersection_1_2",
+        "total_duration": 170,
+        "action": {
+            "0": 40,
+            "1": 80,
+            "2": 25,
+            "3": 25
+        }
+    },
+    {
+        "real_name": "파랑새네거리",
+        "env_name": "intersection_1_3",
+        "total_duration": 170,
+        "action": {
+            "0": 30,
+            "1": 102,
+            "2": 30
+        }
+    },
+    {
+        "real_name": "방죽네거리",
+        "env_name": "intersection_1_4",
+        "total_duration": 170,
+        "action": {
+            "0": 26,
+            "1": 85,
+            "2": 20,
+            "3": 39
+        }
+    },
+    {
+        "real_name": "정부청사역네거리",
+        "env_name": "intersection_1_5",
+        "total_duration": 170,
+        "action": {
+            "0": 24,
+            "1": 64,
+            "2": 23,
+            "3": 23,
+            "4": 13,
+            "5": 23
+        }
+    },
+    {
+        "real_name": "선사유적네거리",
+        "env_name": "intersection_1_6",
+        "total_duration": 170,
+        "action": {
+            "0": 38,
+            "1": 87,
+            "2": 20,
+            "3": 25
+        }
+    },
+    {
+        "real_name": "만년네거리",
+        "env_name": "intersection_1_7",
+        "total_duration": 170,
+        "action": {
+            "0": 18,
+            "1": 58,
+            "2": 33,
+            "3": 23,
+            "4": 14,
+            "5": 24
+        }
+    },
+    {
+        "real_name": "만년들네거리",
+        "env_name": "intersection_1_8",
+        "total_duration": 170,
+        "action": {
+            "0": 23,
+            "1": 61,
+            "2": 22,
+            "3": 42,
+            "4": 22
+        }
+    },
+    {
+        "real_name": "대덕대교네거리",
+        "env_name": "intersection_1_9",
+        "total_duration": 170,
+        "action": {
+            "0": 18,
+            "1": 80,
+            "2": 40,
+            "3": 32
+        }
+    }
+]

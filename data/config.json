@@ -1,0 +1,1 @@
+{"interval": 1.0, "seed": 0, "dir": "C:\\Users\\user\\Desktop\\RealLight\\data/real/hangzhou/", "roadnetFile": "roadnet.json", "flowFile": "flow.json", "rlTrafficLight": true, "laneChange": false, "saveReplay": true, "roadnetLogFile": "roadnetlog.json", "replayLogFile": "replay.txt"}

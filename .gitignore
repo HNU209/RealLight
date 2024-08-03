@@ -1,0 +1,6 @@
+### replay
+/data/*/*/replay/*
+/data/real/daejeon_daeduck/fixed_time_replay/*
+
+### model
+/data/*/*/models/*
