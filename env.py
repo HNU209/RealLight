@@ -3,7 +3,6 @@ from datetime import datetime
 import numpy as np
 import cityflow
 import shutil
-import yaml
 import json
 import os
 
