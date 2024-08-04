@@ -31,11 +31,6 @@
 If you want to adjust your hyper-parameters, modify conf.yaml file
 
 ## Comparison Table - Average Travel Time
-<style>
-  .orange {
-    background: PeachPuff
-  }
-</style>
 <table>
   <tr>
     <td colspan="2" align="center">Environments</td>
@@ -117,15 +112,15 @@ If you want to adjust your hyper-parameters, modify conf.yaml file
   </tr>
   <tr>
     <td rowspan="2" align="center">Ours</td>
-    <td class="orange" align="center" color="red">RealLight</td>
-    <td class="orange" align="center">85.71</td>
-    <td class="orange" align="center">107.08</td>
-    <td class="orange" align="center">142.83</td>
-    <td class="orange" align="center">181.39</td>
-    <td class="orange" align="center">253.39</td>
-    <td class="orange" align="center">298.19</td>
-    <td class="orange" align="center">887.82</td>
-    <td class="orange" align="center">122.27</td>
+    <td align="center">RealLight</td>
+    <td align="center">85.71</td>
+    <td align="center">107.08</td>
+    <td align="center">142.83</td>
+    <td align="center">181.39</td>
+    <td align="center">253.39</td>
+    <td align="center">298.19</td>
+    <td align="center">887.82</td>
+    <td align="center">122.27</td>
   </tr>
     <td align="center">RealLight-max</td>
     <td align="center">89.43</td>
