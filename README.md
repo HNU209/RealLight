@@ -122,7 +122,7 @@ If you want to adjust your hyper-parameters, modify conf.yaml file
     <td>887.82</td>
     <td>122.27</td>
   </tr>
-    <td>RealLight-max</td>
+    <td align="center">RealLight-max</td>
     <td>89.43</td>
     <td>113.45</td>
     <td>151.63</td>
