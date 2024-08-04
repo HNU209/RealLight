@@ -31,104 +31,109 @@
 If you want to adjust your hyper-parameters, modify conf.yaml file
 
 ## Comparison Table - Average Travel Time
-<table align="center">
+<style>
+  .orange {
+    background: PeachPuff
+  }
+</style>
+<table>
   <tr>
-    <td colspan="2">Environments</td>
-    <td>1x3</td>
-    <td>2x2</td>
-    <td>3x3</td>
-    <td>4x4</td>
-    <td>Jinan</td>
-    <td>Hangzhou</td>
-    <td>Newyork</td>
-    <td>Daejeon-Daeduck</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Non-RL</td>
-    <td>Fixed-Time</td>
-    <td>384.47</td>
-    <td>454.01</td>
-    <td>508.87</td>
-    <td>565.99</td>
-    <td>405.91</td>
-    <td>488.51</td>
-    <td>-</td>
-    <td>207.45</td>
-  </tr>
-    <td>SOTL</td>
-    <td>247.07</td>
-    <td>331.64</td>
-    <td>424.66</td>
-    <td>474.32</td>
-    <td>410.65</td>
-    <td>505.53</td>
-    <td>-</td>
-    <td>-</td>
+    <td colspan="2" align="center">Environments</td>
+    <td align="center">1x3</td>
+    <td align="center">2x2</td>
+    <td align="center">3x3</td>
+    <td align="center">4x4</td>
+    <td align="center">Jinan</td>
+    <td align="center">Hangzhou</td>
+    <td align="center">Newyork</td>
+    <td align="center">Daejeon-Daeduck</td>
   </tr>
   <tr>
-    <td rowspan="4">RL</td>
-    <td>GRL</td>
-    <td>208.21</td>
-    <td>239.13</td>
-    <td>431.43</td>
-    <td>523.01</td>
-    <td>562.91</td>
-    <td>598.17</td>
-    <td>-</td>
-    <td>-</td>
+    <td rowspan="2" align="center">Non-RL</td>
+    <td align="center">Fixed-Time</td>
+    <td align="center">384.47</td>
+    <td align="center">454.01</td>
+    <td align="center">508.87</td>
+    <td align="center">565.99</td>
+    <td align="center">405.91</td>
+    <td align="center">488.51</td>
+    <td align="center">-</td>
+    <td align="center">207.45</td>
+  </tr>
+    <td align="center">SOTL</td>
+    <td align="center">247.07</td>
+    <td align="center">331.64</td>
+    <td align="center">424.66</td>
+    <td align="center">474.32</td>
+    <td align="center">410.65</td>
+    <td align="center">505.53</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
   <tr>
-    <td>Colight</td>
-    <td>210.01</td>
-    <td>312.29</td>
-    <td>328.7</td>
-    <td>397.07</td>
-    <td>327.62</td>
-    <td>337.45</td>
-    <td>1459.28</td>
-    <td>-</td>
+    <td rowspan="4" align="center">RL</td>
+    <td align="center">GRL</td>
+    <td align="center">208.21</td>
+    <td align="center">239.13</td>
+    <td align="center">431.43</td>
+    <td align="center">523.01</td>
+    <td align="center">562.91</td>
+    <td align="center">598.17</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
   <tr>
-    <td>PressLight</td>
-    <td>98.74</td>
-    <td>123.9</td>
-    <td>166.28</td>
-    <td>215.32</td>
-    <td>285.65</td>
-    <td>341.99</td>
-    <td>-</td>
-    <td>-</td>
+    <td align="center">Colight</td>
+    <td align="center">210.01</td>
+    <td align="center">312.29</td>
+    <td align="center">328.7</td>
+    <td align="center">397.07</td>
+    <td align="center">327.62</td>
+    <td align="center">337.45</td>
+    <td align="center">1459.28</td>
+    <td align="center">-</td>
   </tr>
   <tr>
-    <td>IPDALight</td>
-    <td>88.01</td>
-    <td>109.66</td>
-    <td>146.92</td>
-    <td>184.54</td>
-    <td>255.35</td>
-    <td>298.99</td>
-    <td>-</td>
-    <td>-</td>
+    <td align="center">PressLight</td>
+    <td align="center">98.74</td>
+    <td align="center">123.9</td>
+    <td align="center">166.28</td>
+    <td align="center">215.32</td>
+    <td align="center">285.65</td>
+    <td align="center">341.99</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
   </tr>
-  <tr background-color=`PeachPuff`>
-    <td rowspan="2">Ours</td>
-    <td>RealLight</td>
-    <td>85.71</td>
-    <td>107.08</td>
-    <td>142.83</td>
-    <td>181.39</td>
-    <td>253.39</td>
-    <td>298.19</td>
-    <td>887.82</td>
-    <td>122.27</td>
+  <tr>
+    <td align="center">IPDALight</td>
+    <td align="center">88.01</td>
+    <td align="center">109.66</td>
+    <td align="center">146.92</td>
+    <td align="center">184.54</td>
+    <td align="center">255.35</td>
+    <td align="center">298.99</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center">Ours</td>
+    <td class="orange" align="center" color="red">RealLight</td>
+    <td class="orange" align="center">85.71</td>
+    <td class="orange" align="center">107.08</td>
+    <td class="orange" align="center">142.83</td>
+    <td class="orange" align="center">181.39</td>
+    <td class="orange" align="center">253.39</td>
+    <td class="orange" align="center">298.19</td>
+    <td class="orange" align="center">887.82</td>
+    <td class="orange" align="center">122.27</td>
   </tr>
     <td align="center">RealLight-max</td>
-    <td>89.43</td>
-    <td>113.45</td>
-    <td>151.63</td>
-    <td>193.63</td>
-    <td>271.34</td>
-    <td>319.57</td>
-    <td>931.52</td>
-    <td>129.68</td>
+    <td align="center">89.43</td>
+    <td align="center">113.45</td>
+    <td align="center">151.63</td>
+    <td align="center">193.63</td>
+    <td align="center">271.34</td>
+    <td align="center">319.57</td>
+    <td align="center">931.52</td>
+    <td align="center">129.68</td>
 </table>
