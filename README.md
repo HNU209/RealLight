@@ -31,7 +31,7 @@
 If you want to adjust your hyper-parameters, modify conf.yaml file
 
 ## Comparison Table - Average Travel Time
-<table text-align="center">
+<table align="center">
   <tr>
     <td colspan="2">Environments</td>
     <td>1x3</td>
