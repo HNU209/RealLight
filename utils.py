@@ -8,7 +8,7 @@ def generator_agents(args, env):
         args_['name'] = env.intersection_name[index]
         args_['in_dim'] = env.observation_space[index]
         
-        if 'daejeon_daeduck' == args['env_name']:
+        if 'daejeon_seogu' == args['env_name']:
             n_action = env.action_space[index] - 1
         else:
             n_action = 4

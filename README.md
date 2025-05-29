@@ -1,6 +1,6 @@
 # RealLight
 
-[RealLight](https://github.com/HNU209/RealLight) is a signal optimization algorithm based on reinforcement learning. This algorithm can be used in a wide range of networks at scale and in order to optimize the signal in a realistic way, it obtains the information of the network through CCTV. The proposed RealLight has the advantage that it can be used in a realistic and diverse road network compared to the existing reinforcement learning-based signal optimization algorithm. RealLight's performance verified the best results in terms of vehicle travel time when compared to the existing state-of-the-art algorithm. In addition, RealLight can be used even if each intersection has a different signal table by placing a separate agent. Furthermore, in order to optimize the realistic signal, it is learned not to be involved in the number of lanes or the direction of movement by lanes. The picture below shows the part where the RealLight algorithm can obtain the information of the network through CCTV.
+[RealLight](https://github.com/HNU209/RealLight) is a reinforcement learning-based signal optimization algorithm designed to operate effectively across large-scale and complex road networks. This algorithm can be used in a wide range of networks at scale and in order to optimize the signal in a realistic way, it obtains the information of the network through surveillance cameras. Compared to existing reinforcement learning-based traffic signal control algorithms, RealLight offers greater applicability to diverse and realistic urban networks. Its performance has been validated by demonstrating superior results in terms of vehicle travel time against state-of-the-art algorithm. A Key advantage of RealLight is its flexibility: it supports heterogeneous signal settings by deploying a separate agent at each intersection, allowing it to handle intersections with different signal tables. Moreover, RealLight is trained to optimize traffic signals without relying on specific lane counts or directional movements, enhancing its generalization.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f06d5228-2fed-45e1-9036-66b8b40106b2">
@@ -30,7 +30,7 @@
 ### Adjust custom hyper-parameters
 If you want to adjust your hyper-parameters, modify conf.yaml file
 
-## Comparison Table - Average Travel Time
+## A comparison table by Average Travel Time
 <table>
   <tr>
     <td colspan="2" align="center">Environments</td>
@@ -41,7 +41,7 @@ If you want to adjust your hyper-parameters, modify conf.yaml file
     <td align="center">Jinan</td>
     <td align="center">Hangzhou</td>
     <td align="center">Newyork</td>
-    <td align="center">Daejeon-Daeduck</td>
+    <td align="center">Daejeon Seo-gu</td>
   </tr>
   <tr>
     <td rowspan="2" align="center">Non-RL</td>

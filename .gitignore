@@ -4,3 +4,5 @@
 
 ### model
 /data/*/*/models/*
+
+__pycache__

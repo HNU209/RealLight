@@ -65,7 +65,7 @@ class Env:
             '2-1': 'en'
         }
         
-        if self.env_name == 'daejeon_daeduck':
+        if self.env_name == 'daejeon_seogu':
             self.time_type = self.args['time_type']
             self.intersection_ratio = self.get_intersection_ratio()
             self.total_road = self.get_total_road()
@@ -180,7 +180,7 @@ class Env:
         return reward
     
     def step(self, phase_lst):
-        if self.env_name == 'daejeon_daeduck':
+        if self.env_name == 'daejeon_seogu':
             self.append_vehicle_route()
         
         visual_light = defaultdict(lambda : defaultdict(lambda : {}))
@@ -245,7 +245,7 @@ class Env:
         shutil.copy(f'{self.dir_name}/conf.yaml', f'{self.result_folder}/conf.yaml')
         shutil.copy(f'{self.data_dir}/config.json', f'{self.result_folder}/config.json')
         shutil.copy(f'{self.data_dir}/{self.env_type}/{self.env_name}/roadnet.json', f'{self.result_folder}/roadnet.json')
-        if self.env_name == 'daejeon_daeduck':
+        if self.env_name == 'daejeon_seogu':
             shutil.copy(f'{self.data_dir}/{self.env_type}/{self.env_name}/{self.args["time_type"]}_flow.json', f'{self.result_folder}/flow.json')
         else:
             shutil.copy(f'{self.data_dir}/{self.env_type}/{self.env_name}/flow.json', f'{self.result_folder}/flow.json')
@@ -325,7 +325,7 @@ class Env:
             phase_dict[intersection_id] = phase_lane
         return phase_dict
 
-    ### dynamic vehicle control for daejeon daeduck environments
+    ### dynamic vehicle control for daejeon seogu environments
     def get_intersection_ratio(self):
         ratio_file = f'{self.env_type}/{self.env_name}/ratio_data/{self.time_type}_ratio.json'
         total_ratio_file = os.path.join(self.data_dir, ratio_file)

@@ -5,9 +5,9 @@ algo: 'rl' # fixed or rl
 
 ## environment parameters
 # env_type == synthetic -> 1_3, 2_2, 3_3, 4_4
-# env_type == real      -> jinan, hangzhou, newyork, daejeon_daeduck
-env_type: 'synthetic' # synthetic or real
-env_name: '1_3'
+# env_type == real      -> jinan, hangzhou, newyork, daejeon_seogu
+env_type: 'real' # synthetic or real
+env_name: 'daejeon_seogu'
 
 episode: 200
 steps_per_episode: 3600
@@ -43,8 +43,8 @@ batch_size: 32
 value_loss_coef: 1
 entropy_loss_coef: 0.01
 
-## if env_name == 'daejeon_daeduck'
-time_type: 'total' # when env_name is real-daejeon_daeduck, you can use type with am, am, not, pm
+## if env_name == 'daejeon_seogu'
+time_type: 'total' # when env_name is real-daejeon_seogu, you can use type with am, am, not, pm
 yellow_phase: False
 
 ## data folder location

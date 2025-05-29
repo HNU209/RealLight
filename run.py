@@ -178,7 +178,7 @@ if __name__ == '__main__':
     else:
         NotImplementedError()
     
-    if args['env_name'] == 'daejeon_daeduck':
+    if args['env_name'] == 'daejeon_seogu':
         if args['algo'] == 'fixed':
             if args['yellow_phase']:
                 get_action_fn = get_fixed_agent_actions_yellow
