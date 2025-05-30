@@ -5,6 +5,9 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f06d5228-2fed-45e1-9036-66b8b40106b2">
 </p>
+<p align="center">
+  <img src="figure/seo_gu.gif">
+</p>
 
 ## How to use RealLight
 
