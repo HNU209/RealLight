@@ -3,8 +3,8 @@
 [RealLight](https://github.com/HNU209/RealLight) is a reinforcement learning-based signal optimization algorithm designed to operate effectively across large-scale and complex road networks. This algorithm can be used in a wide range of networks at scale and in order to optimize the signal in a realistic way, it obtains the information of the network through surveillance cameras. Compared to existing reinforcement learning-based traffic signal control algorithms, RealLight offers greater applicability to diverse and realistic urban networks. Its performance has been validated by demonstrating superior results in terms of vehicle travel time against state-of-the-art algorithm. A Key advantage of RealLight is its flexibility: it supports heterogeneous signal settings by deploying a separate agent at each intersection, allowing it to handle intersections with different signal tables. Moreover, RealLight is trained to optimize traffic signals without relying on specific lane counts or directional movements, enhancing its generalization.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f06d5228-2fed-45e1-9036-66b8b40106b2" width=600px height=400px>
-  <img src="figure/seo_gu.gif" width=400px height=400px>
+  <img src="https://github.com/user-attachments/assets/f06d5228-2fed-45e1-9036-66b8b40106b2" width=500px height=300px>
+  <img src="figure/seo_gu.gif" width=300px height=300px>
 </p>
 <p align="center">
 </p>
